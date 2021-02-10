@@ -1,0 +1,33 @@
+.test {
+    background-color: salmon !important;
+    border: 1px solid black;
+}
+
+iframe{
+    width: inherit;
+    height: inherit;
+}
+
+.video-detail{
+    height: 350px;
+    padding: 0px !important;
+}
+
+.col-5{
+    padding: 0px !important;
+}
+
+.col-7{
+    padding-right: 0px !important;
+}
+
+.video-list-item img{
+    height: 100px;
+    width: inherit;
+    
+}
+
+
+.video-list {
+    padding: 0px !important;
+}
