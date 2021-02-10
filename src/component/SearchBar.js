@@ -3,7 +3,6 @@ import React from 'react';
 class SearchBar extends React.Component{
     state = {keyword: ''};
     onInputChange = (event) =>{
-        console.log(event.target.value);
         this.setState({keyword:event.target.value});
     }
 
@@ -11,7 +10,6 @@ class SearchBar extends React.Component{
         event.preventDefault();
         event.preventDefault();
         this.props.onSubmit(this.state.keyword);
-
     }
     render(){
         return (
